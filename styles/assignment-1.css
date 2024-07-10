@@ -97,6 +97,37 @@ text-align: center;
 opacity: 0.7;
 
 }
+.page-4-part-1-heading-font{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.page-4-part-1-description-font{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.page-4-part-1-button-font{
+    rgb(13, 19, 33)
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
 
 /* Buttons */
 .button-1{
@@ -258,5 +289,97 @@ margin: 0px 32px;
   
 
  
+}
+/*Page-4 parts */
+.part-1{
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    /* Frame 10 */
+position: static;
+width: 280px;
+height: 280px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px; 
+}
+
+.part-2{
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    /* Frame 10 */
+position: static;
+width: 280px;
+height: 280px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px; 
+}
+.part-3{
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    /* Frame 10 */
+position: static;
+width: 280px;
+height: 280px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px; 
+
+}
+
+/* page-4 */
+.page-4{
+    /* Frame 18 */
+position: static;
+width: 1140px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 150px;
+margin-left: 220px;
 }
 
